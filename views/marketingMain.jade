@@ -15,7 +15,7 @@ block content
         li
           a(href='#intro') Home
         li
-          a(href='#one') About
+          a(href='#about') About
         li
           a(href='#two') Who we Are
         li
@@ -30,10 +30,45 @@ block content
         h2(style="padding-top:400px;") Up for a challenge?
         
       footer
-        a.button.style2.down(href='#one') More
+        a.button.style2.down(href='#about') More
+  //
+     About
+  section#about.main.style3.primary
+    .content.container
+      header
+        h2 About the Program
+        p
+          | Facebook's Rotational Product Manager Program is a one year product management training program. 
+      //
+                     Lightbox Gallery
+                     
+                     Powered by poptrox. Full docs here: https://github.com/n33/jquery.poptrox
+                  
+      .container.small.gallery
+        .row.flush.images
+          .6u
+            a.image.full.r(href='/images/fulls/jumping_cropped.jpg')
+              img(src='/images/fulls/jumping_cropped.jpg', title='Airchitecture II', alt='')
+          .6u
+            a.image.full.r(href='/images/fulls/02.jpg')
+              img(src='/images/thumbs/02.jpg', title='Airchitecture II', alt='')
+        .row.flush.images
+          .6u
+            a.image.full.l(href='/images/fulls/03.jpg')
+              img(src='/images/thumbs/03.jpg', title='Air Lounge', alt='')
+          .6u
+            a.image.full.r(href='/images/fulls/04.jpg')
+              img(src='/images/thumbs/04.jpg', title='Carry on', alt='')
+        .row.flush.images
+          .6u
+            a.image.full.l(href='/images/fulls/05.jpg')
+              img(src='/images/thumbs/05.jpg', title='The sparkling shell', alt='')
+          .6u
+            a.image.full.r(href='/images/fulls/06.jpg')
+              img(src='/images/thumbs/06.jpg', title='Bent IX', alt='')
   //
      One 
-  section#one.main.style2.right.dark.fullscreen
+  //section#one.main.style2.right.dark.fullscreen
     .content.box.style2
       header
         h2 What I Do
@@ -47,11 +82,45 @@ block content
   section#two.main.style2.left.dark.fullscreen
     .content.box.style2
       header
-        h2 Who I Am
+        h2 Who we Are
       p
-        | Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-        | Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-        | id varius justo euismod in. Curabitur egestas consectetur magna urna.
+        | RPMs are a pretty diverse group. We've come from backgrounds as varied as computer science, 
+        | investment banking, management consulting, and even reality TV show-documented startups. 
+    a.button.style2.down.anchored(href='#three') Next
+  //
+     Three
+  section#three.main.style2.right.dark.fullscreen
+    .content.box.interviewPage
+      header
+        h2(style="font-size:40px") From TFA to Product- 
+        h2(style="font-size: 40px") Meet Henry Soong! 
+      p(style="font-size:20px; line-height: 150%;")
+        | After college, I decided to venture away from my native Chicago and taught math at a high school in Oakland as part of the Teach for America program. After TFA, I worked on a machine learning project with an agricultural robotics startup in Mountain View. PMs at Facebook come from a variety of disciplines, places, and world views. My favorite part of being an RPM is getting to see people think out loud during brainstorm sessions. There is such creativity and passion! Fun fact: I'm a die hard Planet Earth fan! Shark week has nothing on their super slo-mo Great White Shark scenes. 
+    a.button.style2.down.anchored(href='#four') Next
+
+    //
+     Four
+  section#four.main.style2.left.dark.fullscreen
+    .content.box.interviewPage
+      header
+        h2(style="font-size:40px") Zuck Reviews in Spandex? 
+        h2(style="font-size: 40px") You betcha. 
+      p(style="font-size:20px; line-height: 150%;")
+        | Fun fact: the first product review I did with Mark Zuckerberg (on week 7 of being at the company) I had to do in spandex bike shorts because I had lost a bet the day before against an RPM Manager. The review went well though!
+      p(style="font-size:20px; line-height: 150%;")
+        | Jokes aside, I come from a more traditional computer science background. I grew up and studied in Canada but decided to make the move out to Silicon Valley after a few great internship experiences. For one of my rotations, I got to completely reimagine Facebook Pages on mobile. As a PM, I've learned how to feel when a team is happy, operating well, and working towards a vision that everyone is bought into.
+    a.button.style2.down.anchored(href='#five') Next
+
+    //
+     Five
+  section#five.main.style2.right.dark.fullscreen
+    .content.box.interviewPage
+      header
+        h2(style="font-size:40px") Ashley Yuki  
+      p(style="font-size:20px; line-height: 150%;")
+        | I studied Computer Science and Business through the Jerome Fisher Management and Technology dual-degree program at Penn. After that, I worked in Management Consulting with Bain and Company in New York, where I had the opportunity to tackle some meaty Fortune 500 company strategy problems in various fields. 
+      p(style="font-size:20px; line-height: 150%;")
+        | One project I've worked on at Facebook that I am incredibly passionate about is internet.org. About 80% of the world's population lives within range of a 2G or 3G connection, and yet well over 4B people remain unconnected to the internet. I've gotten to partner with carriers to find economically sustainable ways to make mobile data more affordable and accessible for the world. I love what a rich support network I have in my RPM class. We are all working on such different things, and yet many of the challenges we face are universal.
     a.button.style2.down.anchored(href='#work') Next
   //
      Work 
