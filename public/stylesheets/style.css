@@ -1203,6 +1203,30 @@
 	}
 
 /*********************************************************************************/
+/* Six                                                                           */
+/*********************************************************************************/
+
+	#six {
+		background: url('/images/fulls/Dwight.jpg'), url('../images/one.jpg');
+		background-size: 100%; 
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+		background-repeat: no-repeat;
+	}
+
+/*********************************************************************************/
+/* Seven                                                                         */
+/*********************************************************************************/
+
+	#seven {
+		background: url('/images/fulls/Garima.jpg'), url('../images/one.jpg');
+		background-size: 100%; 
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+		background-repeat: no-repeat;
+	}
+
+/*********************************************************************************/
 /* Work                                                                          */
 /*********************************************************************************/
 
