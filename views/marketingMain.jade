@@ -19,7 +19,7 @@ block content
         li
           a(href='#two') Who we Are
         li
-          a(href='#work') Talk to us!
+          a(href='#work') FAQ
         li
           a(href='#contact') Apply
   //
@@ -34,7 +34,7 @@ block content
   //
      About
   section#about.main.style3.primary
-    .content.container(style="text-align:left")
+    .content.container(style="width: 65%")
       header
         h2 About the Program
         p
@@ -165,14 +165,14 @@ block content
         | Before Facebook, I cofounded a used car search engine startup. We joined Y-Combinator, raised funding and captured 2% of the market before Facebook acquired us.
       p(style="font-size:20px; line-height: 150%;")
         | Fun fact: I didn't know what I wanted to do after college, so I bought a one way ticket to India to become a reporter. I ended up in a Bollywood movie, marched with Tibetan monks, photographed the Nepalese revolution, and worked with a Spanish film crew in Mongolia – but it turns out I'm a really mediocre reporter.  
-    a.button.style2.down.anchored(href='#work') Next
+    a.button.style2.down.anchored(href='#contact') Next
 
   //
      Work 
   section#work.main.style3.primary
     .content.container
       header
-        h2 My Work
+        h2 FAQ
         p
           | Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
           | Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
@@ -204,35 +204,33 @@ block content
           .6u
             a.image.full.r(href='/images/fulls/06.jpg')
               img(src='/images/thumbs/06.jpg', title='Bent IX', alt='')
-  //
+   //
      Contact 
   section#contact.main.style3.secondary
-    .content.container
+    .content.container(style="width: 65%")
       header
-        h2 Say Hello.
-        p Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-      .box.container.small
-        //
-                         Contact Form
-                         
-                         To get this working, place a script on your server to receive the form data, then
-                         point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
-                         More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/
-                      
-        form(method='post', action='#')
-          .row.half
-            .6u
-              input(type='text', name='name', placeholder='Name')
-            .6u
-              input(type='text', name='email', placeholder='Email')
-          .row.half
-            .12u
-              textarea(name='message', placeholder='Message', rows='6')
-          .row
-            .12u
-              ul.actions
-                li
-                  input.button(type='submit', value='Send Message')
+        h2 Think You've Got What it Takes? 
+        p 
+         | As RPMs, we build products that impact the lives of over 1.2 billion people. We're all passionate about connecting the world around us and improving the way people communicate.  There isn't a specific mold or set of skills we're looking for, but rather the potential to become a great product leader. There are three qualities we're looking for in Product Managers at Facebook:
+    
+       p
+         h2 Passion
+         | RPMs are people who are passionate about developing well-crafted products that add value to people's lives and bring delight to their everyday experiences.
+        
+         br
+         br
+        
+         h2 Action  
+         | RPMs have strong analytical skills along with the ability to break large, messy problems into discrete pieces. Once the problem has been broken down, they need to prioritize the pieces and deliver on them.
+         br
+         br
+        
+         h2 Leadership  
+         | RPMs inspire and motivate their team to hit goals and ship impactful products. A Product Manager is like the conductor of an orchestra. While they do not design or build, RPMs carry the vision of a product and communicate that vision across cross-functional teams. They shouldn't be afraid to take risks and move fast!
+         br
+         br
+         input.button(type='submit', value='Apply Now', onclick="window.open('https://www.facebook.com/careers/department?req=a0IA000000CwBjlMAF', '_blank');", style="margin-bottom: 50px")
+
   //
      Footer 
   footer#footer
