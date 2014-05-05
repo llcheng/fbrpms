@@ -1195,7 +1195,7 @@
 /*********************************************************************************/
 
 	#five {
-		background: url('/images/fulls/Ashley_Portrait.jpg'), url('../images/one.jpg');
+		background: url('/images/fulls/Ashley_Full.jpg'), url('../images/one.jpg');
 		background-size: 100%; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
