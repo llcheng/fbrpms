@@ -4,5 +4,5 @@
  */
 
 exports.display = function(req, res){
-  res.render('marketingMain', { title: 'Testing HTML5up Code' });
+  res.render('marketingMain', { title: 'Facebook RPM Program' });
 };
