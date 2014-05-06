@@ -1097,7 +1097,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('/images/fulls/jumping_cropped.jpg'), url('../images/intro.jpg');
+		background: url('/images/fulls/jumping_original.jpg'), url('../images/intro.jpg');
 		background-size: 100%; 
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
