@@ -1,6 +1,13 @@
 extends layout 
 
-block content      
+block content  
+  script(src='/javascripts/jquery.min.js')
+  script(src='/javascripts/jquery.poptrox.min.js')
+  script(src='/javascripts/skel.min.js')
+  script(src='/javascripts/init.js')
+  noscript
+    link(rel='stylesheet', href='/css/skel-noscript.css')
+    link(rel='stylesheet', href='/css/style.css')    
   //
      Header 
   header#header
@@ -87,17 +94,6 @@ block content
 
         input.button(type='submit', value='Apply Now', onclick="window.open('https://www.facebook.com/careers/department?req=a0IA000000CwBjlMAF', '_blank');")
 
-  //
-     One 
-  //section#one.main.style2.right.dark.fullscreen
-    .content.box.style2
-      header
-        h2 What I Do
-      p
-        | Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-        | Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-        | id varius justo euismod in. Curabitur egestas consectetur magna urna.
-    a.button.style2.down.anchored(href='#two') Next
   //
      Preface 
   section#two.main.style2.right.dark.fullscreen
