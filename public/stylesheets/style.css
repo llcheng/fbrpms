@@ -1102,11 +1102,10 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('/images/fulls/OriginalJumping_exp.jpg'), url('../images/intro.jpg');
+		background: url('/images/fulls/OriginalJumping_exp.jpg');
 		background-size: 100%; 
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
-		/*background-repeat: repeat, no-repeat;*/
 		background-repeat: no-repeat; 
 	}
 
