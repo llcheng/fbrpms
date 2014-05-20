@@ -1102,11 +1102,10 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('/images/fulls/OriginalJumping_exp.jpg'), url('../images/intro.jpg');
+		background: url('/images/fulls/OriginalJumping_exp.jpg');
 		background-size: 100%; 
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
-		/*background-repeat: repeat, no-repeat;*/
 		background-repeat: no-repeat; 
 	}
 
@@ -1158,11 +1157,12 @@
 /*********************************************************************************/
 
 	#one {
-		background: url('/images/fulls/walking_backpacks.jpg'), url('../images/one.jpg');
-		background-size: 100%; 
+		background: url('images/overlay.png'), url('/images/fulls/walking_backpacks.jpg');
+		/*background: url('/images/fulls/walking_backpacks.jpg'), url('images/overlay.jpg');*/
+		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
@@ -1170,11 +1170,12 @@
 /*********************************************************************************/
 
 	#two {
-		background: url('/images/fulls/walking_backpacks.jpg'), url('../images/two.jpg');
-		background-size: 100%; 
+		background: url('images/overlay.png'), url('/images/fulls/walking_backpacks.jpg');
+		/*background: url('/images/fulls/walking_backpacks.jpg'), url('../images/two.jpg');*/
+		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
@@ -1182,11 +1183,12 @@
 /*********************************************************************************/
 
 	#three {
-		background: url('/images/fulls/Henry_Portrait.jpg'), url('../images/one.jpg');
-		background-size: 100%; 
+		background: url('images/overlay.png'), url('/images/fulls/Henry_Portrait.jpg');
+		/*background: url('/images/fulls/Henry_Portrait.jpg'), url('../images/one.jpg');*/
+		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
@@ -1194,11 +1196,12 @@
 /*********************************************************************************/
 
 	#four {
-		background: url('/images/fulls/Andrew.jpg'), url('../images/one.jpg');
-		background-size: 100%; 
+		background: url('images/overlay.png'), url('/images/fulls/Andrew.jpg');
+		/*background: url('/images/fulls/Andrew.jpg'), url('../images/one.jpg');*/
+		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
@@ -1206,11 +1209,12 @@
 /*********************************************************************************/
 
 	#five {
-		background: url('/images/fulls/Ashley_Full.jpg'), url('../images/one.jpg');
-		background-size: 100%; 
+		background: url('images/overlay.png'), url('/images/fulls/Ashley_Full.jpg');
+		/*background: url('/images/fulls/Ashley_Full.jpg'), url('../images/one.jpg');*/
+		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
@@ -1218,11 +1222,12 @@
 /*********************************************************************************/
 
 	#six {
-		background: url('/images/fulls/Garima.jpg'), url('../images/one.jpg');
-		background-size: 100%; 
+		background: url('images/overlay.png'), url('/images/fulls/Garima.jpg');
+		/*background: url('/images/fulls/Garima.jpg'), url('../images/one.jpg');*/
+		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
@@ -1230,11 +1235,12 @@
 /*********************************************************************************/
 
 	#seven {
-		background: url('/images/fulls/Dwight_Portrait.jpg'), url('../images/one.jpg');
-		background-size: 100%; 
+		background: url('images/overlay.png'), url('/images/fulls/Dwight_Portrait.jpg');
+		/*background: url('/images/fulls/Dwight_Portrait.jpg'), url('../images/one.jpg');*/
+		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat, no-repeat;
 	}
 
 /*********************************************************************************/
