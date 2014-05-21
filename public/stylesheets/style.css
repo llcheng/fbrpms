@@ -103,6 +103,13 @@
 		margin-bottom: 1em;
 	}
 
+	li.FAQuestion{
+		font-size: 2em;
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: -2px;
+		line-height: 1.25em;
+	}
+
 	header {
 		margin-bottom: 1em;
 	}
