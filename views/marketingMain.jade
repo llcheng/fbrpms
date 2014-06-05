@@ -2,9 +2,9 @@ extends layout
 
 block content  
   script(src='/javascripts/jquery.min.js')
-  script(src='/javascripts/jquery.poptrox.min.js')
-  script(src='/javascripts/skel.min.js')
   script(src='/javascripts/init.js')
+  script(src='/javascripts/skel.min.js')
+  script(src='/javascripts/jquery.poptrox.min.js')
   noscript
     link(href='http://fonts.googleapis.com/css?family=Josefin+Sans', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='/css/skel-noscript.css')
@@ -47,33 +47,22 @@ block content
         h2 About the Program
         p
           | The Facebook Rotational Product Manager program trains people excited about technology to become great Product Managers. Facebook RPMs lead three product rotations over twelve months, while receiving guidance from mentors.  At the end of the program, RPMs are equipped to lead cross-functional teams that build high-impact, meaningful products.
-
-        //form(action="https://www.facebook.com/careers/department?req=a0IA000000CwBjlMAF")
-          .row
-            .12u
-              ul.actions
-                li
-        
-      //
-          Lightbox Gallery
-                     
-          Powered by poptrox. Full docs here: https://github.com/n33/jquery.poptrox
             
-      .container.small.gallery(style="margin-bottom: 50px;")
-        .row.flush.images
-          .6u
-            a.image.full.r(href='/images/fulls/Japan.jpg')
-              img(src='/images/fulls/Japan.jpg', title='Visting Facebook Japan!', alt='')
-          .6u
-            a.image.full.r(href='/images/fulls/escape_the_room.jpg')
-              img(src='/images/fulls/escape_the_room.jpg', title='The 2013 RPMs after failing the Escape-The-Room Challenge', alt='')
-        .row.flush.images
-          .6u
-            a.image.full.l(href='/images/fulls/work_from_garage.jpg')
-              img(src='/images/fulls/work_from_garage.jpg', title='"Work-from-the-Garage Wednesdays"', alt='')
-          .6u
-            a.image.full.r(href='/images/fulls/tennis.jpg')
-              img(src='/images/fulls/tennis.jpg', title='Building a Popup Tennis Court in Hacker Square', alt='')
+    .container.small.gallery(style="margin-bottom: 50px;")
+      .row.flush.images
+        .6u
+          a.image.full.l(href='/images/fulls/Japan.jpg')
+            img(src='/images/fulls/Japan.jpg', title='Visting Facebook Japan!', alt='')
+        .6u
+          a.image.full.r(href='/images/fulls/escape_the_room.jpg')
+            img(src='/images/fulls/escape_the_room.jpg', title='The 2013 RPMs after failing the Escape-The-Room Challenge', alt='')
+      .row.flush.images
+        .6u
+          a.image.full.l(href='/images/fulls/work_from_garage.jpg')
+            img(src='/images/fulls/work_from_garage.jpg', title='"Work-from-the-Garage Wednesdays"', alt='')
+        .6u
+          a.image.full.r(href='/images/fulls/tennis.jpg')
+            img(src='/images/fulls/tennis.jpg', title='Building a Popup Tennis Court in Hacker Square', alt='')
 
       p 
         | Our mission is to create a tight-knit network of PMs who build products that positively impact the world. The program has three goals:
