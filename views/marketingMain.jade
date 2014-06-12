@@ -7,6 +7,7 @@ block content
   script(src='/javascripts/jquery.poptrox.min.js')
   noscript
     link(href='http://fonts.googleapis.com/css?family=Josefin+Sans', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='/css/skel-noscript.css')
     link(rel='stylesheet', href='/css/style.css')    
   //
@@ -15,7 +16,8 @@ block content
     //
        Logo 
     h1#logo
-      a(href='#') Facebook RPM Program
+      a.fa.fa-facebook-square.facebookLogo
+      a.programTitle(href='#') Rotational Product Manager Program
     //
        Nav 
     nav#nav
@@ -243,7 +245,7 @@ block content
               
     ul.actions
       li
-        a.fa.solo.fa-facebook(href='https://www.facebook.com/fbrpms', target="_blank")
+        a.fa.solo.fa-facebook-square(href='https://www.facebook.com/fbrpms', target="_blank")
           span Facebook
       li
         a.fa.solo.fa-instagram(href='http://instagram.com/fbrpms', target= "_blank")

@@ -40,6 +40,16 @@
 			color: inherit;
 			text-decoration: none;
 		}
+			.facebookLogo{
+				font-family: 'Helvetica', sans-serif;
+				color: #3b5998;
+				padding-right: 6px;
+			}
+
+			.programTitle{
+				font-family: 'Source Sans Pro', sans-serif;
+				font-weight: normal; 
+			}
 
 	h1{
 		font-family: 'Josefin Sans', sans-serif;
@@ -799,7 +809,7 @@
 		.fa-camera-retro:before{content:"\f083"}
 		.fa-key:before{content:"\f084"}
 		.fa-gears:before,.fa-cogs:before{content:"\f085"}
-		.fa-comments:before{content:"\f086"}
+		.http://schema.sys.kth.se/4DACTION/WebShowSearch/1/2-0?wv_type=4&wv_category=0&wv_ts=20120115T155408X5390&wv_search=DD2476&wv_startWeek=1203&wv_stopWeek=1222&wv_first=0&wv_addObj=&wv_delObj=&wv_obj1=32406000&wv_obj2=17665000&wv_obj3=27107000&wv_obj4=30121000&wv_graphic=Graphical+formatfa-comments:before{content:"\f086"}
 		.fa-thumbs-o-up:before{content:"\f087"}
 		.fa-thumbs-o-down:before{content:"\f088"}
 		.fa-star-half:before{content:"\f089"}
