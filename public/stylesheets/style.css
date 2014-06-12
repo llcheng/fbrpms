@@ -1201,7 +1201,7 @@
 /*********************************************************************************/
 
 	#three {
-		background: url('images/overlay.png'), url('/images/fulls/Henry_Portrait.jpg');
+		background: url('images/overlay.png'), url('/images/fulls/Ashley_Full.jpg');
 		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -1225,7 +1225,7 @@
 /*********************************************************************************/
 
 	#five {
-		background: url('images/overlay.png'), url('/images/fulls/Ashley_Full.jpg');
+		background: url('images/overlay.png'), url('/images/fulls/Henry_Portrait.jpg');
 		background-size: 256px 256px, cover; 
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
