@@ -23,7 +23,8 @@
 			}
 
 	body,input,textarea,select {
-		font-family: 'Josefin Sans';
+		/*font-family: 'Josefin Sans';*/
+		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -57,10 +58,14 @@
 		
 	h2 {
 		font-size: 2.25em;
-		font-family: 'Josefin Sans', sans-serif;
+		/*font-family: 'Josefin Sans', sans-serif;*/
+		font-family: 'Source Sans Pro', sans-serif;
 		letter-spacing: -2px;
 		line-height: 1.25em;
 	}
+		.firstPage{
+			font-weight: normal;
+		}
 		
 	strong, b {
 		font-weight: 900;
@@ -116,7 +121,8 @@
 
 	li.FAQuestion{
 		font-size: 2em;
-		font-family: 'Josefin Sans', sans-serif;
+		/*font-family: 'Josefin Sans', sans-serif;*/
+		font-family: 'Source Sans Pro', sans-serif;
 		letter-spacing: -2px;
 		line-height: 1.25em;
 	}
